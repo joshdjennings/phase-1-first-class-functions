@@ -139,6 +139,16 @@ To start with, let's use the full function syntax we've come to know and love:
 exerciseRoutine(function () {
   console.log("Stretch! Work that core!");
 });
+//vanilla
+function () {
+  console.log("Stretch! Work that core!");
+}
+//.5short
+() => {
+  console.log("Stretch! Work that core!");
+}
+//short
+() => console.log("Stretch! Work that core!")
 
 // "Go for a five-mile run"
 // "Stretch! Work that core!"
